@@ -54,7 +54,7 @@ SRC_URI += "file://baltos.scc \
 LINUX_VERSION ?= "3.18"
 LINUX_VERSION_EXTENSION ?= ""
 
-SRCREV="${AUTOREV}"
+SRCREV="v3.18.32"
 
 PV = "${LINUX_VERSION}+git${SRCPV}"
 
