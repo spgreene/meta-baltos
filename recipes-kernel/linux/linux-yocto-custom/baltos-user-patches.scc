@@ -10,3 +10,4 @@ patch linux-0001-Ignore-write-protect-flag.patch
 patch linux-0002-Add-wl127x-platform-data-for-Baltos.patch
 patch linux-0003-tty-serial-omap-use-mctrl_gpio-helpers.patch
 patch 0001-Add-OnRISC-DTS-files.patch
+patch 0001-usb-musb-host-don-t-start-next-rx-urb-if-current-one.patch
