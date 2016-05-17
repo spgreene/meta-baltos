@@ -7,7 +7,7 @@ DEPENDS = "eudev libsoc"
 SRC_URI = "git://github.com/visionsystemsgmbh/libonrisc.git;protocol=https"
 
 PV = "1.0+git${SRCPV}"
-SRCREV = "${AUTOREV}"
+SRCREV = "1.5.2"
 
 S = "${WORKDIR}/git"
 
