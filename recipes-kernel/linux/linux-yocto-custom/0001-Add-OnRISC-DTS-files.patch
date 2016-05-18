@@ -1,4 +1,4 @@
-From 7c2c0830e6bea7fc85bba352ce0d864dd71afbb8 Mon Sep 17 00:00:00 2001
+From 4a293886232640e0318969b30518507278d6b70a Mon Sep 17 00:00:00 2001
 From: Yegor Yefremov <yegorslists@googlemail.com>
 Date: Mon, 18 Apr 2016 11:03:33 +0200
 Subject: [PATCH] Add OnRISC DTS files
@@ -7,11 +7,11 @@ Signed-off-by: Yegor Yefremov <yegorslists@googlemail.com>
 ---
  arch/arm/boot/dts/netcan.dts                 | 471 ++++++++++++++++++++++++
  arch/arm/boot/dts/netcom-plus-omap-uarts.dts | 490 +++++++++++++++++++++++++
- arch/arm/boot/dts/netcom-plus.dts            | 484 ++++++++++++++++++++++++
+ arch/arm/boot/dts/netcom-plus.dts            | 488 ++++++++++++++++++++++++
  arch/arm/boot/dts/onrisc-baltos-ir-2110.dts  | 452 +++++++++++++++++++++++
- arch/arm/boot/dts/onrisc-baltos-ir-3220.dts  | 510 ++++++++++++++++++++++++++
- arch/arm/boot/dts/onrisc-baltos-ir-5221.dts  | 525 +++++++++++++++++++++++++++
- 6 files changed, 2932 insertions(+)
+ arch/arm/boot/dts/onrisc-baltos-ir-3220.dts  | 514 ++++++++++++++++++++++++++
+ arch/arm/boot/dts/onrisc-baltos-ir-5221.dts  | 529 +++++++++++++++++++++++++++
+ 6 files changed, 2944 insertions(+)
  create mode 100644 arch/arm/boot/dts/netcan.dts
  create mode 100644 arch/arm/boot/dts/netcom-plus-omap-uarts.dts
  create mode 100644 arch/arm/boot/dts/netcom-plus.dts
@@ -994,10 +994,10 @@ index 0000000..fabfee9
 +};
 diff --git a/arch/arm/boot/dts/netcom-plus.dts b/arch/arm/boot/dts/netcom-plus.dts
 new file mode 100644
-index 0000000..0430d5c
+index 0000000..ce591b4
 --- /dev/null
 +++ b/arch/arm/boot/dts/netcom-plus.dts
-@@ -0,0 +1,484 @@
+@@ -0,0 +1,488 @@
 +/*
 + * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
 + *
@@ -1482,6 +1482,10 @@ index 0000000..0430d5c
 +&gpio0 {
 +	ti,no-reset-on-init;
 +};
++
++&gpio3 {
++	ti,no-reset-on-init;
++};
 diff --git a/arch/arm/boot/dts/onrisc-baltos-ir-2110.dts b/arch/arm/boot/dts/onrisc-baltos-ir-2110.dts
 new file mode 100644
 index 0000000..43f24d7
@@ -1942,10 +1946,10 @@ index 0000000..43f24d7
 +};
 diff --git a/arch/arm/boot/dts/onrisc-baltos-ir-3220.dts b/arch/arm/boot/dts/onrisc-baltos-ir-3220.dts
 new file mode 100644
-index 0000000..fd7f780
+index 0000000..32555b2
 --- /dev/null
 +++ b/arch/arm/boot/dts/onrisc-baltos-ir-3220.dts
-@@ -0,0 +1,510 @@
+@@ -0,0 +1,514 @@
 +/*
 + * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
 + *
@@ -2456,12 +2460,16 @@ index 0000000..fd7f780
 +&gpio0 {
 +	ti,no-reset-on-init;
 +};
++
++&gpio3 {
++	ti,no-reset-on-init;
++};
 diff --git a/arch/arm/boot/dts/onrisc-baltos-ir-5221.dts b/arch/arm/boot/dts/onrisc-baltos-ir-5221.dts
 new file mode 100644
-index 0000000..29d9de5
+index 0000000..c1dc573
 --- /dev/null
 +++ b/arch/arm/boot/dts/onrisc-baltos-ir-5221.dts
-@@ -0,0 +1,525 @@
+@@ -0,0 +1,529 @@
 +/*
 + * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
 + *
@@ -2978,6 +2986,10 @@ index 0000000..29d9de5
 +};
 +
 +&gpio0 {
++	ti,no-reset-on-init;
++};
++
++&gpio3 {
 +	ti,no-reset-on-init;
 +};
 +
