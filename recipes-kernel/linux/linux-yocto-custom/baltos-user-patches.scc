@@ -11,3 +11,5 @@ patch linux-0002-Add-wl127x-platform-data-for-Baltos.patch
 patch linux-0003-tty-serial-omap-use-mctrl_gpio-helpers.patch
 patch 0001-Add-OnRISC-DTS-files.patch
 patch 0001-usb-musb-host-don-t-start-next-rx-urb-if-current-one.patch
+patch 0001-cpsw-ethtool-add-support-for-getting-setting-EEE-reg.patch
+patch 0002-net-phy-add-an-option-to-disable-EEE-advertisement.patch
