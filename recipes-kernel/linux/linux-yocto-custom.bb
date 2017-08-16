@@ -51,7 +51,7 @@ SRC_URI += "file://defconfig"
 SRC_URI += "file://baltos.scc \
            "
 
-LINUX_VERSION ?= "3.18"
+LINUX_VERSION ?= "3.18.32"
 LINUX_VERSION_EXTENSION ?= ""
 
 SRCREV="v3.18.32"
